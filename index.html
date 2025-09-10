@@ -46,7 +46,7 @@
                         class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
                         <li><a>Home</a></li>
                         <li><a>About</a></li>
-                        <li><a>News</a></li>
+                        <li><a href="#client">News</a></li>
                         <li><a>Contact Us</a></li>
                     </ul>
                     </div>
@@ -216,7 +216,7 @@
         </section>
 
         <!-- Client Section -->
-         <section>
+         <section id="client">
             <!-- Section Title -->
             <div class="py-10">
                 <h2 class="text-4xl text-black font-bold mb-10 text-center">Happy <span class="text-[#E76F51]">Clients says</span></h2>
@@ -297,10 +297,77 @@
                 </div>
             </div>
          </section>
+
+        <!--FAQ Section  -->
+        <section class="py-10">
+            <!-- Section Title -->
+            <div class="py-10">
+                <h2 class="text-4xl text-black font-bold mb-10 text-center">Frequently Asked <span class="text-[#E76F51]">Questions</span></h2>
+            </div>
+            <!-- Section Content -->
+            <div class="flex items-center gap-5 flex-col md:flex-row">
+                <!-- Section Image -->
+                 <div class="flex-1">
+                    <img class="mx-auto" src="images/others/faq.png" alt="">
+                 </div>
+                 <!-- Section Accordian -->
+                  <div class="flex-1">
+                    <div class="collapse collapse-arrow bg-base-100 border border-base-300 mb-3">
+                        <input type="radio" name="my-accordion-2" checked="checked" />
+                        <div class="collapse-title font-semibold">What are the most important things I should know about riding a bike?</div>
+                        <div class="collapse-content text-sm">Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. </div>
+                    </div>
+                    <div class="collapse collapse-arrow bg-base-100 border border-base-300 mb-3">
+                        <input type="radio" name="my-accordion-2" />
+                        <div class="collapse-title font-semibold">How can I tell if my helmet is old and I need a new one?</div>
+                        <div class="collapse-content text-sm">Click on "Forgot Password" on the login page and follow the instructions sent to your email.</div>
+                    </div>
+                    <div class="collapse collapse-arrow bg-base-100 border border-base-300 mb-3">
+                        <input type="radio" name="my-accordion-2" />
+                        <div class="collapse-title font-semibold">My bike has been in storage is it safe to ride?</div>
+                        <div class="collapse-content text-sm">Go to "My Account" settings and select "Edit Profile" to make changes.</div>
+                    </div>
+                    <div class="collapse collapse-arrow bg-base-100 border border-base-300 mb-3">
+                        <input type="radio" name="my-accordion-2" />
+                        <div class="collapse-title font-semibold">What rules should I follow when riding my bike?</div>
+                        <div class="collapse-content text-sm">Go to "My Account" settings and select "Edit Profile" to make changes.</div>
+                    </div>
+                  </div>
+            </div>
+        </section>
     </main>
     <!-- Footer Section -->
-    <footer>
-
+    <footer class="footer sm:footer-horizontal bg-neutral text-neutral-content p-10 flex justify-between items-center flex-col lg:flex-row mx-auto">
+        <aside class="space-y-3">
+                <div>
+                    <ul class="flex gap-5">
+                        <li><a href="#">Download Now</a></li>
+                        <li><a href="#">License</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <ul class="flex gap-5">
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Features</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Help</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <p>© 2020 bike. All rights reserved</p>
+        </aside>
+        <nav>
+                <h6 class="footer-title">Get the App</h6>
+                <div class="grid grid-cols-1 gap-4">
+                <a>
+                    <img class="w-36" src="images/others/android.png" alt="">
+                </a>
+                <a>
+                    <img class="w-36" src="images/others/ios.png" alt="">
+                </a>
+                </div>
+        </nav>
     </footer>
 </body>
 </html>
